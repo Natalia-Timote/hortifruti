@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: #FFF6DA;
+    color: #A94A4A;
+    font-size: 24px;
+    font-family: "Rubik", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2, h3 {
+    margin: 8px 0 8px 0;
+    font-size: 36px;
+}
+
+img {
+    width: 36px;
+}
+
+.title {
+    color: #889E73;
+    font-size: 56px;
+    font-family: "Macondo", serif;
+}
+
+.buttons {
+    margin: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F4D793;
+    color: white;
+    font-size: 24px;
+}
+
+.list {
+    margin: 0;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+}
